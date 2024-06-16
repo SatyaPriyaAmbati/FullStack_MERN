@@ -1,0 +1,64 @@
+[{
+  "id":1,
+  "name":"React Book",
+  "title":"Front-End-React Learners",
+  "price":"0$",
+  "category":"Free",
+  "image":"https://img.freepik.com/free-vector/hand-drawn-flat-design-stack-books-illustration_23-2149341898.jpg?t=st=1718057435~exp=1718061035~hmac=77bd8bdc0aa39788260f9e9dc36bb3434a4e076529c48e9bf0ba7c04c8207228&w=740"
+},
+{
+  "id":2,
+  "name":"Backend Book",
+  "title":"Back-End- Java/Node/.NetLearners",
+  "price":"0$",
+  "category":"Free",
+  "image":"https://img.freepik.com/free-vector/hand-drawn-flat-design-stack-books-illustration_23-2149341898.jpg?t=st=1718057435~exp=1718061035~hmac=77bd8bdc0aa39788260f9e9dc36bb3434a4e076529c48e9bf0ba7c04c8207228&w=740"
+
+},
+{
+  "id":3,
+  "name":"Cloud Book",
+  "title":"AWS",
+  "price":"0$",
+  "category":"Free",
+  "image":"https://img.freepik.com/free-vector/hand-drawn-flat-design-stack-books-illustration_23-2149341898.jpg?t=st=1718057435~exp=1718061035~hmac=77bd8bdc0aa39788260f9e9dc36bb3434a4e076529c48e9bf0ba7c04c8207228&w=740"
+
+},
+{
+  "id":4,
+  "name":"Container Book",
+  "title":"Docker",
+  "price":"0$",
+  "category":"Free",
+  "image":"https://img.freepik.com/free-vector/hand-drawn-flat-design-stack-books-illustration_23-2149341898.jpg?t=st=1718057435~exp=1718061035~hmac=77bd8bdc0aa39788260f9e9dc36bb3434a4e076529c48e9bf0ba7c04c8207228&w=740"
+
+},
+{
+  "id":5,
+  "name":"Storage Book",
+  "title":"Database",
+  "price":"0$",
+  "category":"Free",
+  "image":"https://img.freepik.com/free-vector/hand-drawn-flat-design-stack-books-illustration_23-2149341898.jpg?t=st=1718057435~exp=1718061035~hmac=77bd8bdc0aa39788260f9e9dc36bb3434a4e076529c48e9bf0ba7c04c8207228&w=740"
+
+},
+{
+  "id":6,
+  "name":"Data tranfer Book",
+  "title":"API",
+  "price":"0$",
+  "category":"Free",
+  "image":"https://img.freepik.com/free-vector/hand-drawn-flat-design-stack-books-illustration_23-2149341898.jpg?t=st=1718057435~exp=1718061035~hmac=77bd8bdc0aa39788260f9e9dc36bb3434a4e076529c48e9bf0ba7c04c8207228&w=740"
+
+},
+{
+  "id":7,
+  "name":"fullstack",
+  "title":"Fulstack",
+  "price":"120$",
+  "category":"Buy",
+  "image":"https://img.freepik.com/free-vector/hand-drawn-flat-design-stack-books-illustration_23-2149341898.jpg?t=st=1718057435~exp=1718061035~hmac=77bd8bdc0aa39788260f9e9dc36bb3434a4e076529c48e9bf0ba7c04c8207228&w=740"
+
+
+}
+]
