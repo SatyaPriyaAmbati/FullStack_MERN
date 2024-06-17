@@ -1,9 +1,10 @@
-import React, { useEffect, useState } from 'react'
+import React, { useEffect, useState } from 'react';
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import Slider from "react-slick";
 import Card from './Card';
 import axios from 'axios';
+
 function Freebook() {
   const [books, setBooks] = useState([]);
 
@@ -11,8 +12,8 @@ function Freebook() {
     const getBooks = async () => {
       try {
         const res = await axios.get('http://localhost:3000/book');
-        console.log(res.data.filter((data)=>data.category==="Free"));
-        setBooks(res.data);
+        const freeBooks = res.data.filter((data) => data.category === "Free");
+        setBooks(freeBooks);
       } catch (error) {
         console.error('Error fetching books:', error.response || error.message || error);
       }
@@ -21,9 +22,7 @@ function Freebook() {
     getBooks();
   }, []);
 
-
-  
-  var settings = {
+  const settings = {
     dots: true,
     infinite: false,
     speed: 500,
@@ -57,26 +56,22 @@ function Freebook() {
       }
     ]
   };
+
   return (
     <>
-      <div className='max-w-screen-2Xl container mx-auto md:px-20 px-4'>
-        <h1 className='font-bold text-x1 pb-2'>Free Offered courses</h1>
-        <p>
-          you can find the free books here!!
-        </p>
+      <div className='max-w-screen-2xl container mx-auto md:px-20 px-4'>
+        <h1 className='font-bold text-xl pb-2'>Free Offered Courses</h1>
+        <p>You can find the free books here!</p>
       </div>
-      <div className="slider-container max-w-screen-2Xl container mx-auto md:px-20 px-4">
-      <Slider {...settings}>
-        
-          {books.map((item)=>(<Card item={item} key={item.id}/>
-
+      <div className="slider-container max-w-screen-2xl container mx-auto md:px-20 px-4">
+        <Slider {...settings}>
+          {books.map((item) => (
+            <Card item={item} key={item.id} />
           ))}
-        
-      </Slider>
-    </div>
+        </Slider>
+      </div>
     </>
-    
-  )
+  );
 }
 
-export default Freebook
+export default Freebook;
