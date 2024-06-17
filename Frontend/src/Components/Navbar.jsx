@@ -3,6 +3,7 @@ import { useState } from "react";
 import Login from "./Login";
 import Logout from "./Logout";
 import { useAuth } from "../Context/AuthProvider";
+import Freebook from "./Freebook";
 
 function Navbar() {
   const [authUser, setAuthUser] = useAuth();
@@ -45,10 +46,10 @@ function Navbar() {
         <a href="/course">Course</a>
       </li>
       <li>
-        <a>Contact</a>
+        <a href="/Contact">Contact</a>
       </li>
       <li>
-        <a>About</a>
+        <a href="/About">About</a>
       </li>
     </>
   );

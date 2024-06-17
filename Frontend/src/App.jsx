@@ -1,14 +1,13 @@
 import React from 'react'
 import Home from './Home/Home'
-
-
 import { Navigate, Route, Routes } from "react-router-dom"
 import Courses from './Courses/Courses'
 import Signup from './Components/Signup'
 import Login from './Components/Login'
 import Contactme from './Contactme/Contactme'
-import AboutUs from './About/AboutUs'
 import { useAuth } from './Context/AuthProvider'
+import Freebook from './Components/Freebook'
+import AboutUs from './About/AboutUs'
 
 function App() {
   const[authUser,setAuthUser]=useAuth();
@@ -20,7 +19,7 @@ function App() {
       <Route path="/signup" element={<Signup/>}/>
       <Route path="/login" element={<Login/>}/>
        <Route path="/Contact" element={<Contactme/>}/>
-       <Route path="/" element={<AboutUs/>}/>
+       <Route path="/About" element={<AboutUs/>}/>
     </Routes>
     </>
     

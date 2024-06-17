@@ -5,12 +5,13 @@ import Freebook from '../Components/Freebook'
 import Footer from '../Components/Footer'
 
 
+
 function Home() {
   return (
     <div>
    <Navbar/>
     <Banner/>
-    <Freebook/>
+    <Freebook/> 
     <Footer/>
     
     </div>
